@@ -456,3 +456,185 @@ table {
 	margin-right: 13px;
 	
 }
+
+
+.block {
+	background: url(picture/christmas_snow_trees-wide.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	
+}
+
+.block__info {
+	display: flex;
+	margin-bottom: 120px;
+}
+
+.formbox,
+.infobox {
+	margin-left: 20px;
+	background-color: rgba(2, 22, 35, 0.7);
+}
+
+.formbox {
+	width: 600px;
+}
+
+.formbox__group {
+
+	color: white;
+	font-family: Raleway;
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	overflow: hidden;
+  	position: relative;
+
+	margin: 40px 0 0 20px;
+}
+
+.formbox__input {
+
+	font-family: Raleway;
+	letter-spacing: normal;
+	font-size: 15px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+
+}
+
+.formbox__label {
+	position: absolute;
+ 
+ 
+ 
+	
+	
+
+}
+
+.formbox__input {
+	width: 500px;
+	padding-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #6e7981;
+	background-color: transparent;
+	outline: 0.3s;
+}
+
+.formbox__input--textarea {
+	width: 500px;
+	padding-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #6e7981;
+	background-color: transparent;
+	outline: 0.3s;
+	resize: none;
+}
+
+.formbox__button {
+	margin-top: 30px;
+	font-family: Montserrat;
+	letter-spacing: inherit;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-left: 40px;
+	background: #6eeee4;
+	color: #000000;
+	border: none; 
+	border-radius: 2px;
+    padding: 20px 40px;
+	margin-bottom: 38px;
+
+	cursor: pointer;
+
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.formbox__button:hover {
+	background-color: #beeeff;
+    color: white;
+}
+
+.infobox {
+	color: white;
+	font-family: Raleway;
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	padding: 40px 24px 20px 30px;
+	text-decoration: none;
+	
+}
+
+.infobox__phone:link,
+.infobox__fax:link,
+.infoox__web:link
+.infoox__email:link {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.infobox__fax {
+	margin-bottom: 39px;
+}
+
+.infoox__email {
+	margin-bottom: 30px;
+}
+
+
+
+.infobox__map {
+	width: 460px;
+	height: 225px;
+	background-color: #333;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+[class*="ground-pane"] {
+	filter: grayscale(1);
+}
+
+.footer {
+	background-color: #262b2e;
+}
+
+.footer__text {
+	padding-top: 90px;
+	color: #a6a8a9;
+	font-family:Raleway;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer__socials {
+	margin-bottom: 150px;
+}
+
+.fotter__icons {
+	background-color: #424648;
+	width: 47px;
+	height: 43px;
+}
+
+
+
+	
+
