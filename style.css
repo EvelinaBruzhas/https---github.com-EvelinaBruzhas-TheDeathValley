@@ -405,8 +405,8 @@ table {
 
 
 .card__img {
-	padding: 10px;
 	margin: 0%;
+	padding: 10px;
 }
 
 .card {
@@ -532,8 +532,9 @@ width: 55%;
 	padding-top: 45px;
 	padding-left: 30px;
 	padding-right: 34px;
+	padding-bottom: 40px;
   	
-	margin-left: 20px;
+	margin-right: 50px;
 	
 }
 
@@ -541,6 +542,7 @@ width: 55%;
 	display: block;
 	width: 100%;
 	font-family: Raleway;
+	color: white;
 	letter-spacing: normal;
 	height: 30px;
 	margin-bottom: 30px;
@@ -565,29 +567,29 @@ width: 55%;
 
 .formbox__input--textarea {
 	width: 100%;
+	height: 100px;
 	font-family: Raleway;
+	color: white;
 	padding-bottom: 10px;
 	border: none;
 	border-bottom: 1px solid #6e7981;
 	background-color: transparent;
-	outline: 0.3s;
+	
 	resize: none;
+	margin-bottom: 60px;
 }
 
 .formbox__button {
-	margin-top: 30px;
 	font-family: Montserrat;
 	letter-spacing: inherit;
 	text-transform: uppercase;
 	font-size: 18px;
-	margin-left: 40px;
 	background: #6eeee4;
 	color: #000000;
 	border: none; 
 	border-radius: 2px;
     padding: 20px 40px;
-	margin-bottom: 38px;
-
+	
 	cursor: pointer;
 
 	-webkit-transition-duration: 0.4s; 
@@ -600,7 +602,7 @@ width: 55%;
 }
 
 .infobox {
-	width: 40%;
+	width: 45%;
 	color: white;
 	font-family: Raleway;
 	font-size: 15px;
@@ -614,10 +616,10 @@ width: 55%;
 	
 }
 
-.infobox__phone:link,
-.infobox__fax:link,
-.infobox__web:link
-.infobox__email:link {
+.infobox__phone,
+.infobox__fax,
+.infobox__web,
+.infobox__email {
 	color: white;
 	text-decoration: none;
 	
@@ -656,22 +658,29 @@ width: 55%;
 	color: #a6a8a9;
 	font-family:Raleway;
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .footer__socials {
-	padding-bottom: 150px;
+	
 }
 
 .fotter__icons {
 	background-color: #424648;
-	width: 47px;
-	height: 43px;
+	font-size: 35px;
+	padding: 15px;
+	color: #bec0c1;
+	
+}
+
+.fotter__icons:hover {
+	color: black;
+	background-color: #6eeee4;
 }
 
 
