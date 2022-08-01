@@ -202,12 +202,12 @@ table {
 
 .welcome__btn {
 	margin: 0 auto;
-	display: block;
-	justify-content: center;
+	display: inline-flex;
+	;
 	align-items: center;
-	width: 236px;
-	height: 53px;
-	padding: 20px;
+	/* width: 236px;
+	height: 53px; */
+	padding: 19px 45px;
 	border-radius: 2px;
 	border: 2px solid #000000;
 
@@ -220,7 +220,19 @@ table {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
+
 }
+
+.welcome__button {
+	display: flex;
+	justify-content: center;
+}
+
+.welcome__btn:hover {
+	color: #70f6eb;
+}
+
+
 
 .welcome__box {
 	display: flex;
@@ -355,13 +367,11 @@ table {
 	grid-template-columns: repeat(3, 33%); */
 	grid-gap: 13px;
 	grid-template-columns: repeat(auto-fill, 385px);
-	
-	
+
+
 }
 
-.gallery__line {
-	
-}
+.gallery__line {}
 
 
 .team {
@@ -406,27 +416,28 @@ table {
 
 .card__img {
 	margin: 0%;
-	padding: 10px;
+	/* padding: 10px; */
 }
 
 .card {
-	position:relative;
-	
-	
+	position: relative;
+
+
 }
-	
+
 
 .card__inner {
 	padding: 40px 40px;
 	width: 335px;
 	height: 241px;
 	background-color: #70f6eb;
-	display:none;
-	position:absolute;
-    left:27px;
-    bottom:0;
-    right:0;
-    top:200px;
+	display: none;
+	position: absolute;
+	left: 27px;
+	bottom: 0px;
+	right: 0;
+	top: 200px;
+
 
 }
 
@@ -489,23 +500,23 @@ table {
 	height: 13px;
 	width: 13px;
 	margin-right: 13px;
-	
+
 }
 
 
 
 
- .block {
+.block {
 	background: url(picture/christmas_snow_trees-wide.png);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	padding: 150px 0;
-	
+
 }
 
 .block__group {
 	display: flex;
-		}
+}
 
 
 .formbox,
@@ -514,12 +525,12 @@ table {
 }
 
 .formbox {
-width: 55%;
+	width: 60%;
 
 }
 
 .formbox {
-	color: white;
+	color: #ffffff;
 	font-family: Raleway;
 	font-size: 15px;
 	font-weight: 400;
@@ -529,40 +540,50 @@ width: 55%;
 	text-align: left;
 	overflow: hidden;
 
-	padding-top: 45px;
-	padding-left: 30px;
-	padding-right: 34px;
-	padding-bottom: 40px;
-  	
-	margin-right: 50px;
-	
+	padding: 45px 34px 40px 30px;
+	margin-right: 28px;
+
 }
 
 .formbox__input {
 	display: block;
 	width: 100%;
 	font-family: Raleway;
-	color: white;
+	color: #ffffff;
+	;
 	letter-spacing: normal;
-	height: 30px;
-	margin-bottom: 30px;
-	
+	height: 55px;
 
+
+}
+
+.formbox__input--email {
+	display: block;
+	width: 100%;
+	font-family: Raleway;
+	color: #ffffff;
+	;
+	letter-spacing: normal;
+	height: 55px;
+	margin-bottom: 30px;
 
 }
 
 .formbox__input::placeholder,
-.formbox__input--textarea::placeholder {
-	color: white;
+.formbox__input--textarea::placeholder,
+.formbox__input--email::placeholder {
+	color: #ffffff;
+	;
 }
 
-.formbox__input {
-	
+.formbox__input,
+.formbox__input--email {
+
 	border: none;
-	border-bottom: 1px solid #6e7981;
+	border-bottom: 1px solid #ffffff;
 	background-color: transparent;
-	
-	
+
+
 }
 
 .formbox__input--textarea {
@@ -572,11 +593,12 @@ width: 55%;
 	color: white;
 	padding-bottom: 10px;
 	border: none;
-	border-bottom: 1px solid #6e7981;
+	border-bottom: 1px solid #ffffff;
+	;
 	background-color: transparent;
-	
+
 	resize: none;
-	margin-bottom: 60px;
+	margin-bottom: 38px;
 }
 
 .formbox__button {
@@ -586,23 +608,25 @@ width: 55%;
 	font-size: 18px;
 	background: #6eeee4;
 	color: #000000;
-	border: none; 
+	border: none;
 	border-radius: 2px;
-    padding: 20px 40px;
-	
+	padding: 20px 40px;
+
+	width: 244px;
+
 	cursor: pointer;
 
-	-webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 }
 
 .formbox__button:hover {
 	background-color: #beeeff;
-    color: white;
+	color: white;
 }
 
 .infobox {
-	width: 45%;
+
 	color: white;
 	font-family: Raleway;
 	font-size: 15px;
@@ -611,9 +635,9 @@ width: 55%;
 	letter-spacing: normal;
 	line-height: 24px;
 	text-align: left;
-	padding: 40px 24px 20px 30px;
+	padding: 40px 24px 20px 24px;
 	text-decoration: none;
-	
+
 }
 
 .infobox__phone,
@@ -622,22 +646,22 @@ width: 55%;
 .infobox__email {
 	color: white;
 	text-decoration: none;
-	
+
 }
 
 .infobox__fax {
 	margin-bottom: 39px;
 }
 
-.infoox__email {
-	margin-bottom: 30px;
+.infobox__email {
+	margin-bottom: 24px;
 }
 
 
 
 .infobox__map {
 	width: 460px;
-	height: 225px;
+	height: 230px;
 	background-color: #333;
 }
 
@@ -647,7 +671,7 @@ width: 55%;
 
 [class*="ground-pane"] {
 	filter: grayscale(1);
-} 
+}
 
 .footer {
 	background-color: #262b2e;
@@ -656,7 +680,7 @@ width: 55%;
 
 .footer__text {
 	color: #a6a8a9;
-	font-family:Raleway;
+	font-family: Raleway;
 	font-size: 20px;
 	font-weight: 400;
 	font-style: normal;
@@ -666,16 +690,17 @@ width: 55%;
 	margin-bottom: 30px;
 }
 
-.footer__socials {
-	
+.fotter__box {
+	background-color: #424648;
+	width: 46px;
 }
 
 .fotter__icons {
 	background-color: #424648;
-	font-size: 35px;
+	font-size: 24px;
 	padding: 15px;
 	color: #bec0c1;
-	
+
 }
 
 .fotter__icons:hover {
@@ -683,7 +708,9 @@ width: 55%;
 	background-color: #6eeee4;
 }
 
-
-
-	
-
+:active,
+:hover,
+:focus {
+	outline: 0;
+	outline-offset: 0;
+}
