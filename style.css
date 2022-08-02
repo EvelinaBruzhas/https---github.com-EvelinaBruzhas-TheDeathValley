@@ -203,7 +203,6 @@ table {
 .welcome__btn {
 	margin: 0 auto;
 	display: inline-flex;
-	;
 	align-items: center;
 	/* width: 236px;
 	height: 53px; */
@@ -416,7 +415,7 @@ table {
 
 .card__img {
 	margin: 0%;
-	/* padding: 10px; */
+	width: 100%;
 }
 
 .card {
@@ -428,15 +427,15 @@ table {
 
 .card__inner {
 	padding: 40px 40px;
-	width: 335px;
-	height: 241px;
+	/* width: 335px;
+	height: 241px; */
 	background-color: #70f6eb;
 	display: none;
 	position: absolute;
-	left: 27px;
-	bottom: 0px;
-	right: 0;
-	top: 200px;
+	left: 18px;
+	bottom: 15px;
+	right: 17px;
+	top: 184px;
 
 
 }
@@ -649,6 +648,13 @@ table {
 
 }
 
+.infobox--underline:hover {
+
+	text-decoration: underline;
+}
+
+
+
 .infobox__fax {
 	margin-bottom: 39px;
 }
@@ -690,21 +696,36 @@ table {
 	margin-bottom: 30px;
 }
 
-.fotter__box {
+.fotter__icons--bcg {
+	display: inline-flex;
 	background-color: #424648;
-	width: 46px;
+	padding: 12px;
+	
+	
+	
 }
 
 .fotter__icons {
-	background-color: #424648;
+	/* background-color: #424648; */
 	font-size: 24px;
-	padding: 15px;
 	color: #bec0c1;
+	margin-right: 7px;
+	text-align: center;
+	align-items: center;
+	position: relative;
+	left: 3px;
+	
+	
+	
 
 }
 
 .fotter__icons:hover {
 	color: black;
+	/* background-color: #6eeee4; */
+}
+
+.fotter__icons--bcg:hover {
 	background-color: #6eeee4;
 }
 
