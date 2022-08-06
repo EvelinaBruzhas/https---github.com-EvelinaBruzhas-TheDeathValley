@@ -273,7 +273,7 @@ table {
 	}
 	.welcome__glass {
 		top: 10px;
-		left: 43px;
+		left: 36px;
 	}
 	.welcome__color {
 		padding: 0;
@@ -547,12 +547,13 @@ table {
 	padding: 40px 40px;
 
 	background-color: #70f6eb;
-	display: none;
 	position: absolute;
 	left: 15px;
 	bottom: 15px;
 	right: 15px;
 	opacity: 0;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 
 
 
@@ -855,14 +856,14 @@ table {
 	}
 
 	.infobox__map{
-		width: 200px;
+		width: 0px;
 	}
 	
 }
 
 @media (max-width: 751px) {
 	.infobox__map{
-		width: 350px;
+		width: 0px;
 	}
 }
 
