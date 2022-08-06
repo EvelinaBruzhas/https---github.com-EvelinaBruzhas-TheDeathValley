@@ -158,6 +158,12 @@ table {
 	height: 46px;
 }
 
+@media (max-width: 351px) {
+	.header {
+		padding-bottom: 40px;
+	}
+}
+
 .main {
 	display: flex;
 	flex-direction: column;
@@ -172,6 +178,9 @@ table {
 	flex-direction: column;
 	justify-content: center;
 }
+
+
+	
 
 
 .welcome__title {
@@ -204,8 +213,6 @@ table {
 	margin: 0 auto;
 	display: inline-flex;
 	align-items: center;
-	/* width: 236px;
-	height: 53px; */
 	padding: 19px 45px;
 	border-radius: 2px;
 	border: 2px solid #000000;
@@ -229,6 +236,8 @@ table {
 
 .welcome__btn:hover {
 	color: #70f6eb;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 }
 
 
@@ -249,6 +258,29 @@ table {
 .welcome__color {
 	background-color: #b2f2ee;
 	padding: 10px;
+
+}
+
+@media (max-width: 351px) {
+
+	.welcome{
+		padding: 15px 0;
+	}
+	.welcome__title{
+		letter-spacing: 0;
+	}
+		
+	.welcome__subtitle {
+		margin-bottom: 40px;
+	}
+	.welcome__glass {
+		top: 10px;
+		left: 43px;
+	}
+	.welcome__color {
+		padding: 0;
+	}
+	
 
 }
 
@@ -295,11 +327,12 @@ table {
 }
 
 .about_us__right {
-	padding-right: 156px;
+	margin-right: 156px;
 }
 
 .about_us__image {
 	box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+
 }
 
 .about_us__caption {
@@ -327,6 +360,35 @@ table {
 	margin-bottom: 37px;
 	line-height: 28px;
 
+}
+
+
+@media (max-width: 351px) {
+
+	.about_us{
+		padding: 60px 0;
+	}
+	.about_us__title {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	.about_us__subtitle {
+		margin-bottom: 30px;
+	}
+
+	.about_us__box {
+		flex-direction: column;
+	}
+	.about_us__right {
+		margin-right: 0;
+		margin-bottom: 25px;
+	}
+	.about_us__caption {
+		margin-bottom: 15px;
+	}
+	.about_us__text{
+		margin-bottom: 25px;
+	}
 }
 
 .works {
@@ -362,15 +424,16 @@ table {
 
 .gallery {
 	display: grid;
-	/* grid-template-rows:  repeat(2, 50%);
-	grid-template-columns: repeat(3, 33%); */
 	grid-gap: 13px;
-	grid-template-columns: repeat(auto-fill, 385px);
+	grid-template-columns: repeat(3, 1fr);
 
 
 }
 
-.gallery__line {}
+.gallery__line {
+	width: 100%;
+	display: block;
+}
 
 
 .team {
@@ -408,7 +471,7 @@ table {
 .team__gallery {
 	display: grid;
 	grid-gap: 15px;
-	grid-template-columns: repeat(auto-fill, 385px);
+	grid-template-columns: repeat(3, 1fr);
 
 }
 
@@ -416,6 +479,7 @@ table {
 .card__img {
 	margin: 0%;
 	width: 100%;
+	display: block;
 }
 
 .card {
@@ -427,21 +491,23 @@ table {
 
 .card__inner {
 	padding: 40px 40px;
-	/* width: 335px;
-	height: 241px; */
+
 	background-color: #70f6eb;
 	display: none;
 	position: absolute;
-	left: 18px;
+	left: 15px;
 	bottom: 15px;
-	right: 17px;
-	top: 184px;
+	right: 15px;
+	opacity: 0;
+
 
 
 }
 
+
 .card:hover .card__inner {
-	display: block;
+	opacity: 1;
+
 }
 
 .card__triangle-up {
@@ -503,6 +569,16 @@ table {
 
 }
 
+.card__logo:hover {
+	color:#75807f;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.card__socials {
+	display: flex;
+}
+
 
 
 
@@ -562,7 +638,6 @@ table {
 	width: 100%;
 	font-family: Raleway;
 	color: #ffffff;
-	;
 	letter-spacing: normal;
 	height: 55px;
 	margin-bottom: 30px;
@@ -601,6 +676,20 @@ table {
 	margin-bottom: 38px;
 }
 
+.formbox__input:-webkit-autofill,
+.formbox__input:-webkit-autofill:hover,
+.formbox__input:-webkit-autofill:focus,
+.formbox__input:-webkit-autofill:active,
+.formbox__input--email:-webkit-autofill,
+.formbox__input--email:-webkit-autofill:hover,
+.formbox__input--email:-webkit-autofill:focus,
+.formbox__input--email:-webkit-autofill:active {
+
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-text-fill-color: white !important;
+	caret-color: white;
+}
+
 .formbox__button {
 	font-family: Montserrat;
 	letter-spacing: inherit;
@@ -623,6 +712,8 @@ table {
 .formbox__button:hover {
 	background-color: #beeeff;
 	color: white;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 }
 
 .infobox {
@@ -652,6 +743,7 @@ table {
 .infobox--underline:hover {
 
 	text-decoration: underline;
+
 }
 
 
@@ -701,7 +793,7 @@ table {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
+
 }
 
 
@@ -711,18 +803,18 @@ table {
 	color: #bec0c1;
 	margin: 0;
 	width: 45px;
-    height: 40px;
+	height: 40px;
 	margin-right: 7px;
-    background: #424648;
+	background: #424648;
 	display: flex;
-  	align-items: center;
+	align-items: center;
 	justify-content: center;
 	text-decoration: none;
-	
-   
-    
-	
-	
+
+
+
+
+
 
 }
 
@@ -732,7 +824,9 @@ table {
 
 .fotter__icons:hover {
 	color: black;
-	background:#6eeee4;
+	background: #6eeee4;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 }
 
 
