@@ -145,6 +145,24 @@ table {
 	max-width: 1220px;
 }
 
+
+@media (max-width: 1220px) {
+	.wrapper {
+		max-width: 970px;
+	}
+}
+
+@media (max-width:992px) {
+	.wrapper {
+		max-width: 750px;
+	}
+}
+@media (max-width: 767px) {
+	.wrapper {
+		max-width: none;
+	}
+}
+
 .header {
 	background-color: #eff0f2;
 	width: 100%;
