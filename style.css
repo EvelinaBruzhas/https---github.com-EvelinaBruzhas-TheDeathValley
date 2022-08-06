@@ -146,23 +146,6 @@ table {
 }
 
 
-@media (max-width: 1220px) {
-	.wrapper {
-		max-width: 970px;
-	}
-}
-
-@media (max-width:992px) {
-	.wrapper {
-		max-width: 750px;
-	}
-}
-@media (max-width: 767px) {
-	.wrapper {
-		max-width: none;
-	}
-}
-
 .header {
 	background-color: #eff0f2;
 	width: 100%;
@@ -197,10 +180,7 @@ table {
 	justify-content: center;
 }
 
-
 	
-
-
 .welcome__title {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 	color: #505050;
@@ -302,6 +282,23 @@ table {
 
 }
 
+@media (max-width: 751px){
+
+	.welcome{
+		padding: 50px 0;
+	}
+	.welcome__color {
+		padding: 0;
+	}
+	.welcome__title{
+		margin-bottom: 15px;
+	}
+	.welcome__subtitle{
+		line-height: 48px;
+		margin-bottom: 90px;
+	}
+}
+
 .wrapper--about {
 	width: 100%;
 	margin: 0 auto;
@@ -386,6 +383,10 @@ table {
 	.about_us{
 		padding: 60px 0;
 	}
+	.about_us__image {
+		width: 100%;
+	}
+
 	.about_us__title {
 		font-size: 30px;
 		margin-bottom: 5px;
@@ -408,6 +409,25 @@ table {
 		margin-bottom: 25px;
 	}
 }
+
+@media (max-width: 751px) {
+
+	.about_us{
+		padding: 50px 0;
+	}
+	.about_us__right {
+		margin-right: 30px;
+		margin-bottom: 25px;
+	}
+
+	.about_us__caption {
+		margin-bottom: 20px;
+	}
+	.about_us__text{
+		margin-bottom: 20px;
+	}
+
+}	
 
 .works {
 	background: #ffffff;
@@ -451,6 +471,22 @@ table {
 .gallery__line {
 	width: 100%;
 	display: block;
+}
+
+@media (max-width: 351px) {
+	.works {
+		padding: 60px 0;
+	}
+		.works__title {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	.works__subtitle {
+		margin-bottom: 45px;
+	}
+	.gallery {
+		grid-template-columns: 1fr;
+	}
 }
 
 
@@ -597,7 +633,21 @@ table {
 	display: flex;
 }
 
-
+@media (max-width: 351px) {
+	.team {
+		padding: 60px 0;
+	}
+	.team__title {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	.team__subtitle {
+		margin-bottom: 50px;
+	}
+.team__gallery{
+	grid-template-columns: 1fr;
+}
+}
 
 
 .block {
@@ -619,7 +669,7 @@ table {
 }
 
 .formbox {
-	width: 60%;
+	width: 50%;
 
 }
 
@@ -788,6 +838,32 @@ table {
 
 [class*="ground-pane"] {
 	filter: grayscale(1);
+}
+
+@media (max-width: 351px) {
+	.block {
+		padding: 60px 0;
+	}
+
+	.block__group {
+		flex-direction: column;
+	}
+	.formbox {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+	.infobox__map{
+		width: 200px;
+	}
+	
+}
+
+@media (max-width: 751px) {
+	.infobox__map{
+		width: 350px;
+	}
 }
 
 .footer {
