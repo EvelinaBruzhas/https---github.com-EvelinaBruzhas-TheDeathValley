@@ -145,6 +145,17 @@ table {
 	max-width: 1220px;
 }
 
+@media (max-width: 1024px) {
+	.wrapper {
+		padding: 0 40px;
+	}
+}
+
+@media (max-width: 320px) {
+	.wrapper {
+		padding: 0 10px;
+	}
+}
 
 .header {
 	background-color: #eff0f2;
@@ -180,12 +191,18 @@ table {
 	justify-content: center;
 }
 
+
+
+@media (max-width: 1024px) {
+	.welcome {
+		padding: 40px 0;
+	}
+}
 @media (max-width: 320px) {
 	.welcome {
 		padding: 15px 0;
 	}
 }
-
 
 .welcome__title {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
@@ -199,6 +216,7 @@ table {
 	letter-spacing: 2.7px;
 	margin-bottom: 25px;
 }
+
 
 @media (max-width: 320px) {
 	.welcome__title {
@@ -219,6 +237,13 @@ table {
 	text-transform: uppercase;
 	letter-spacing: 2.7px;
 	margin-bottom: 150px;
+}
+
+@media (max-width: 751px) {
+	.welcome__subtitle {
+		line-height: 1.2;
+		margin-bottom: 100px;
+	}
 }
 
 @media (max-width: 320px) {
@@ -248,6 +273,12 @@ table {
 	text-transform: uppercase;
 	text-decoration: none;
 
+}
+
+@media (max-width: 1024px) {
+	.welcome__btn {
+		padding: 19px 100px;
+	}
 }
 
 .welcome__button {
@@ -291,6 +322,12 @@ table {
 
 }
 
+@media (max-width: 751px) {
+	.welcome__color {
+		padding: 0px;
+	}
+}
+
 @media (max-width: 320px) {
 	.welcome__color {
 		padding: 0;
@@ -305,12 +342,23 @@ table {
 	max-width: 1040px;
 }
 
+@media (max-width: 1024px) {
+	.wrapper--about {
+		padding: 0 20px;
+	}
+}
 .about_us {
 	background: #f8fafa;
 	padding: 150px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+@media (max-width: 1024px) {
+	.about_us {
+		padding: 75px 0;
+	}
 }
 
 @media (max-width: 320px) {
@@ -349,6 +397,15 @@ table {
 	line-height: normal;
 	margin-bottom: 150px;
 }
+
+@media (max-width: 751px) {
+
+	
+	.about_us__subtitle {
+		margin-bottom: 100px;
+	}
+}
+
 @media (max-width: 320px) {
 
 	
@@ -362,6 +419,9 @@ table {
 .about_us__box {
 	display: flex;
 }
+
+
+
 @media (max-width: 320px) {
 
 	
@@ -374,8 +434,14 @@ table {
 	margin-right: 156px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
+	.about_us__right {
+		margin-right: 10%;
+	}
+}
 
+
+@media (max-width: 320px) {
 		
 	.about_us__right {
 		margin-right: 0;
@@ -387,6 +453,8 @@ table {
 	box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 
 }
+
+
 
 @media (max-width: 320px) {
 
@@ -435,26 +503,6 @@ table {
 	}
 }
 
-/* @media (max-width: 751px) {
-
-	.about_us {
-		padding: 50px 0;
-	}
-
-	.about_us__right {
-		margin-right: 30px;
-		margin-bottom: 25px;
-	}
-
-	.about_us__caption {
-		margin-bottom: 20px;
-	}
-
-	.about_us__text {
-		margin-bottom: 20px;
-	}
-
-} */
 
 .works {
 	background: #ffffff;
@@ -462,6 +510,11 @@ table {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+@media (max-width: 1024px) {
+	.works {
+		padding: 75px 0;
+	}
 }
 
 @media (max-width: 320px) {
@@ -497,6 +550,13 @@ table {
 	line-height: normal;
 	margin-bottom: 122px;
 }
+
+@media (max-width: 751px) {
+	
+	.works__subtitle {
+		margin-bottom: 100px;
+	}
+}
 @media (max-width: 320px) {
 	
 	.works__subtitle {
@@ -509,6 +569,12 @@ table {
 	grid-gap: 13px;
 	grid-template-columns: repeat(3, 1fr);
 
+}
+@media (max-width: 751px) {
+
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media (max-width: 320px) {
@@ -524,14 +590,18 @@ table {
 }
 
 
-.team {
+ .team {
 	background: #f9fbfb;
 	padding: 150px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-
+@media (max-width: 1024px) {
+	.team {
+		padding: 75px 0;
+	}
+}
 @media (max-width: 320px) {
 	.team {
 		padding: 25px 0;
@@ -549,6 +619,7 @@ table {
 	margin-bottom: 17px;
 
 }
+
 @media (max-width: 320px) {
 	
 	.team__title {
@@ -568,6 +639,11 @@ table {
 	line-height: normal;
 	margin-bottom: 122px;
 }
+@media (max-width: 751px) {
+	.team__subtitle {
+		margin-bottom: 100px;
+	}
+}
 
 @media (max-width: 320px) {
 		
@@ -582,12 +658,20 @@ table {
 	grid-template-columns: repeat(3, 1fr);
 
 }
-@media (max-width: 320px) {
+
+@media (max-width: 751px) {
+		
+	.team__gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+ @media (max-width: 320px) {
 		
 	.team__gallery {
 	grid-template-columns: 1fr;
-}
-}
+	}
+} 
 
 .card__img {
 	margin: 0%;
@@ -685,7 +769,7 @@ table {
 
 .card__socials {
 	display: flex;
-}
+} 
 
 
 .block {
@@ -693,7 +777,17 @@ table {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	padding: 150px 0;
-
+}
+@media (max-width: 1024px) {
+	.block {
+		padding: 75px 0;
+	}
+}
+@media (max-width: 751px) {
+	.block {
+		background: url(picture/christmas_snow_trees-wide.png)  repeat-y;
+		padding: 40px 0;
+	}
 }
 @media (max-width: 320px) {
 	.block {
@@ -702,9 +796,24 @@ table {
 	}
 }
 
+
 .block__group {
 	display: flex;
 }
+
+@media (max-width: 930px) {
+	
+	.block__group {
+		flex-direction: column;
+	}
+}
+@media (max-width: 751px) {
+	
+	.block__group {
+		flex-direction: column;
+	}
+}
+
 @media (max-width: 320px) {
 	
 	.block__group {
@@ -737,6 +846,21 @@ table {
 	margin-right: 28px;
 
 }
+@media (max-width: 930px) {
+	.formbox {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 751px) {
+	.formbox {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
 @media (max-width: 320px) {
 		
 	.formbox {
@@ -745,6 +869,8 @@ table {
 		margin-bottom: 30px;
 	}
 }
+
+
 
 .formbox__input {
 	display: block;
@@ -834,11 +960,22 @@ table {
 	transition-duration: 0.4s;
 }
 
+@media (max-width: 930px) {
+	.formbox__button {
+		width: 100% 
+	}
+}
+@media (max-width: 751px) {
+	.formbox__button {
+		width: 100% 
+	}
+}
 @media (max-width: 320px) {
 	.formbox__button {
 		width: 100% 
 	}
 }
+
 
 .formbox__button:hover {
 	background-color: #beeeff;
@@ -894,6 +1031,20 @@ table {
 	height: 230px;
 	background-color: #333;
 }
+@media (max-width: 930px) {
+	
+	.infobox__map {
+		width: 100%;
+	}
+
+}
+@media (max-width: 751px) {
+	
+	.infobox__map {
+		width: 100%;
+	}
+
+}
 
 @media (max-width: 320px) {
 	
@@ -922,6 +1073,11 @@ table {
 .footer {
 	background-color: #262b2e;
 	padding: 150px 0;
+}
+@media (max-width: 1024px) {
+	.footer { 
+		padding: 75px 0;
+	}
 }
 
 @media (max-width: 320px) {
