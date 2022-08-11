@@ -159,7 +159,7 @@ table {
 	height: 46px;
 }
 
-@media (max-width: 351px) {
+@media (max-width: 320px) {
 	.header {
 		padding-bottom: 40px;
 	}
@@ -180,7 +180,13 @@ table {
 	justify-content: center;
 }
 
-	
+@media (max-width: 320px) {
+	.welcome {
+		padding: 15px 0;
+	}
+}
+
+
 .welcome__title {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 	color: #505050;
@@ -194,6 +200,14 @@ table {
 	margin-bottom: 25px;
 }
 
+@media (max-width: 320px) {
+	.welcome__title {
+		letter-spacing: 0;
+		line-height: 1.2;
+		font-size: 40px;
+	}
+}
+
 .welcome__subtitle {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 	color: #505050;
@@ -205,6 +219,15 @@ table {
 	text-transform: uppercase;
 	letter-spacing: 2.7px;
 	margin-bottom: 150px;
+}
+
+@media (max-width: 320px) {
+	.welcome__subtitle {
+		margin-bottom: 40px;
+		letter-spacing: 0;
+		line-height: 1.2;
+		font-size: 40px;
+	}
 }
 
 .welcome__btn {
@@ -232,6 +255,8 @@ table {
 	justify-content: center;
 }
 
+
+
 .welcome__btn:hover {
 	color: #70f6eb;
 	-webkit-transition-duration: 0.4s;
@@ -253,51 +278,25 @@ table {
 	top: -20px;
 }
 
+@media (max-width: 320px) {
+	.welcome__glass {
+		top: 10px;
+		left: 9px;
+	}
+}
+
 .welcome__color {
 	background-color: #b2f2ee;
 	padding: 10px;
 
 }
 
-@media (max-width: 351px) {
-
-	.welcome{
-		padding: 15px 0;
-	}
-	.welcome__title{
-		letter-spacing: 0;
-	}
-		
-	.welcome__subtitle {
-		margin-bottom: 40px;
-	}
-	.welcome__glass {
-		top: 10px;
-		left: 36px;
-	}
+@media (max-width: 320px) {
 	.welcome__color {
 		padding: 0;
 	}
-	
-
 }
 
-@media (max-width: 751px){
-
-	.welcome{
-		padding: 50px 0;
-	}
-	.welcome__color {
-		padding: 0;
-	}
-	.welcome__title{
-		margin-bottom: 15px;
-	}
-	.welcome__subtitle{
-		line-height: 48px;
-		margin-bottom: 90px;
-	}
-}
 
 .wrapper--about {
 	width: 100%;
@@ -314,6 +313,12 @@ table {
 	justify-content: center;
 }
 
+@media (max-width: 320px) {
+	.about_us {
+		padding: 60px 0;
+	}
+}
+
 .about_us__title {
 	color: #1c1d1d;
 	font-family: Montserrat;
@@ -323,6 +328,14 @@ table {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 17px;
+}
+@media (max-width: 320px) {
+
+		
+	.about_us__title {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
 }
 
 .about_us__subtitle {
@@ -336,18 +349,50 @@ table {
 	line-height: normal;
 	margin-bottom: 150px;
 }
+@media (max-width: 320px) {
+
+	
+	.about_us__subtitle {
+		margin-bottom: 30px;
+	}
+}
+
+
 
 .about_us__box {
 	display: flex;
+}
+@media (max-width: 320px) {
+
+	
+	.about_us__box {
+		flex-direction: column;
+	}
 }
 
 .about_us__right {
 	margin-right: 156px;
 }
 
+@media (max-width: 320px) {
+
+		
+	.about_us__right {
+		margin-right: 0;
+		margin-bottom: 25px;
+	}
+}
+
 .about_us__image {
 	box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 
+}
+
+@media (max-width: 320px) {
+
+		.about_us__image {
+		width: 100%;
+	}
 }
 
 .about_us__caption {
@@ -362,7 +407,12 @@ table {
 	margin-bottom: 31px;
 }
 
-
+@media (max-width: 320px) {
+		
+	.about_us__caption {
+		margin-bottom: 15px;
+	}
+}
 
 .about_us__text {
 	color: #878787;
@@ -378,43 +428,19 @@ table {
 }
 
 
-@media (max-width: 351px) {
-
-	.about_us{
-		padding: 60px 0;
-	}
-	.about_us__image {
-		width: 100%;
-	}
-
-	.about_us__title {
-		font-size: 30px;
-		margin-bottom: 5px;
-	}
-	.about_us__subtitle {
-		margin-bottom: 30px;
-	}
-
-	.about_us__box {
-		flex-direction: column;
-	}
-	.about_us__right {
-		margin-right: 0;
-		margin-bottom: 25px;
-	}
-	.about_us__caption {
-		margin-bottom: 15px;
-	}
-	.about_us__text{
+@media (max-width: 320px) {
+			
+	.about_us__text {
 		margin-bottom: 25px;
 	}
 }
 
-@media (max-width: 751px) {
+/* @media (max-width: 751px) {
 
-	.about_us{
+	.about_us {
 		padding: 50px 0;
 	}
+
 	.about_us__right {
 		margin-right: 30px;
 		margin-bottom: 25px;
@@ -423,11 +449,12 @@ table {
 	.about_us__caption {
 		margin-bottom: 20px;
 	}
-	.about_us__text{
+
+	.about_us__text {
 		margin-bottom: 20px;
 	}
 
-}	
+} */
 
 .works {
 	background: #ffffff;
@@ -437,6 +464,11 @@ table {
 	justify-content: center;
 }
 
+@media (max-width: 320px) {
+	.works {
+		padding: 60px 0;
+	}
+}
 .works__title {
 	color: #1c1d1d;
 	font-family: Montserrat;
@@ -447,7 +479,13 @@ table {
 	text-transform: uppercase;
 	margin-bottom: 17px;
 }
-
+@media (max-width: 320px) {
+	
+	.works__title {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+}
 .works__subtitle {
 	color: #6c6e6e;
 	font-family: Merriweather;
@@ -459,34 +497,30 @@ table {
 	line-height: normal;
 	margin-bottom: 122px;
 }
+@media (max-width: 320px) {
+	
+	.works__subtitle {
+		margin-bottom: 45px;
+	}
+}
 
 .gallery {
 	display: grid;
 	grid-gap: 13px;
 	grid-template-columns: repeat(3, 1fr);
 
+}
 
+@media (max-width: 320px) {
+
+	.gallery {
+		grid-template-columns: 1fr;
+	}
 }
 
 .gallery__line {
 	width: 100%;
 	display: block;
-}
-
-@media (max-width: 351px) {
-	.works {
-		padding: 60px 0;
-	}
-		.works__title {
-		font-size: 30px;
-		margin-bottom: 5px;
-	}
-	.works__subtitle {
-		margin-bottom: 45px;
-	}
-	.gallery {
-		grid-template-columns: 1fr;
-	}
 }
 
 
@@ -496,6 +530,12 @@ table {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+@media (max-width: 320px) {
+	.team {
+		padding: 25px 0;
+	}
 }
 
 .team__title {
@@ -508,6 +548,13 @@ table {
 	text-transform: uppercase;
 	margin-bottom: 17px;
 
+}
+@media (max-width: 320px) {
+	
+	.team__title {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
 }
 
 .team__subtitle {
@@ -522,13 +569,25 @@ table {
 	margin-bottom: 122px;
 }
 
+@media (max-width: 320px) {
+		
+	.team__subtitle {
+		margin-bottom: 50px;
+	}
+}
+
 .team__gallery {
 	display: grid;
 	grid-gap: 15px;
 	grid-template-columns: repeat(3, 1fr);
 
 }
-
+@media (max-width: 320px) {
+		
+	.team__gallery {
+	grid-template-columns: 1fr;
+}
+}
 
 .card__img {
 	margin: 0%;
@@ -538,7 +597,6 @@ table {
 
 .card {
 	position: relative;
-
 
 }
 
@@ -554,8 +612,6 @@ table {
 	opacity: 0;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
-
-
 
 }
 
@@ -577,10 +633,7 @@ table {
 	left: 21px;
 	display: inline-block;
 
-
-
 }
-
 
 
 .card__name {
@@ -625,29 +678,13 @@ table {
 }
 
 .card__logo:hover {
-	color:#75807f;
+	color: #75807f;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 }
 
 .card__socials {
 	display: flex;
-}
-
-@media (max-width: 351px) {
-	.team {
-		padding: 60px 0;
-	}
-	.team__title {
-		font-size: 30px;
-		margin-bottom: 5px;
-	}
-	.team__subtitle {
-		margin-bottom: 50px;
-	}
-.team__gallery{
-	grid-template-columns: 1fr;
-}
 }
 
 
@@ -658,11 +695,22 @@ table {
 	padding: 150px 0;
 
 }
+@media (max-width: 320px) {
+	.block {
+		background: url(picture/christmas_snow_trees-wide.png)  repeat-y;
+		padding: 40px 0;
+	}
+}
 
 .block__group {
 	display: flex;
 }
-
+@media (max-width: 320px) {
+	
+	.block__group {
+		flex-direction: column;
+	}
+}
 
 .formbox,
 .infobox {
@@ -688,6 +736,14 @@ table {
 	padding: 45px 34px 40px 30px;
 	margin-right: 28px;
 
+}
+@media (max-width: 320px) {
+		
+	.formbox {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
 }
 
 .formbox__input {
@@ -778,6 +834,12 @@ table {
 	transition-duration: 0.4s;
 }
 
+@media (max-width: 320px) {
+	.formbox__button {
+		width: 100% 
+	}
+}
+
 .formbox__button:hover {
 	background-color: #beeeff;
 	color: white;
@@ -833,6 +895,14 @@ table {
 	background-color: #333;
 }
 
+@media (max-width: 320px) {
+	
+	.infobox__map {
+		width: 100%;
+	}
+
+}
+
 [class*="copyrights-pane"] {
 	display: none !important;
 }
@@ -841,35 +911,23 @@ table {
 	filter: grayscale(1);
 }
 
-@media (max-width: 351px) {
-	.block {
-		padding: 60px 0;
-	}
 
-	.block__group {
-		flex-direction: column;
-	}
-	.formbox {
-		width: 100%;
-		margin-right: 0;
-		margin-bottom: 30px;
-	}
 
-	.infobox__map{
+/* @media (max-width: 751px) {
+	.infobox__map {
 		width: 0px;
 	}
-	
-}
-
-@media (max-width: 751px) {
-	.infobox__map{
-		width: 0px;
-	}
-}
+} */
 
 .footer {
 	background-color: #262b2e;
 	padding: 150px 0;
+}
+
+@media (max-width: 320px) {
+	.footer {
+		padding: 50px 0;
+	}
 }
 
 .footer__text {
@@ -892,7 +950,6 @@ table {
 }
 
 
-
 .fotter__icons {
 	font-size: 24px;
 	color: #bec0c1;
@@ -906,15 +963,7 @@ table {
 	justify-content: center;
 	text-decoration: none;
 
-
-
-
-
-
 }
-
-
-
 
 
 .fotter__icons:hover {
@@ -923,7 +972,6 @@ table {
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 }
-
 
 
 :active,
