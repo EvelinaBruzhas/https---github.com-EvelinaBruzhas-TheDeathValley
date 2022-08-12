@@ -84,7 +84,37 @@
                             alt=""></li>
                 </ul>
 
+                <ul class="gallery__popup">
+                    <span class="popup__x">&times;</span>
+                    <li class="popup__li"><img class="popup__img" src=" picture/banner3.png" alt=""></li>
+                    <span class="popup__x">&times;</span>
+                    <li class="popup__li"><img class="popup__img" src="picture/5.png" alt=""></li>
+                    <span class="popup__x">&times;</span>
+                    <li class="popup__li"><img class="popup__img" src="picture/6.png" alt=""></li>
+                    <span class="popup__x">&times;</span>
+                    <li class="popup__li"><img class="popup__img" src="picture/work4.png" alt=""></li>
+                    <span class="popup__x">&times;</span>
+                    <li class="popup__li"><img class="popup__img" src="picture/9.png" alt=""></li>
+                    <span class="popup__x">&times;</span>
+                    <li class="popup__li"><img class="popup__img" src="picture/home_dietitian_sectionbg_1.png" alt="">
+                    </li>
+                </ul>
+
             </div>
+
+            <script>
+                document.querySelectorAll(".gallery img").forEach(image => {
+                    image.onclick = () => {
+                        document.querySelector(".gallery__popup").style.display = "block";
+                            document.querySelector(".gallery__popup img").src = image.getAttribute("src");
+                    }
+                });
+
+                document.querySelector(".popup__x").onclick = () => {
+                    document.querySelector(".gallery__popup").style.display = "none";
+                }
+            </script>
+           
 
         </section>
 
