@@ -151,6 +151,12 @@ table {
 	}
 }
 
+@media (max-width: 751px) {
+	.wrapper {
+		padding: 0 10px;
+	}
+}
+
 @media (max-width: 320px) {
 	.wrapper {
 		padding: 0 10px;
@@ -170,7 +176,7 @@ table {
 	height: 46px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px) { 
 	.header {
 		padding-bottom: 40px;
 	}
@@ -191,18 +197,18 @@ table {
 	justify-content: center;
 }
 
-
+@media (max-width: 320px) {
+	.welcome {
+		padding: 15px 0;
+	}
+}
 
 @media (max-width: 1024px) {
 	.welcome {
 		padding: 40px 0;
 	}
 }
-@media (max-width: 320px) {
-	.welcome {
-		padding: 15px 0;
-	}
-}
+
 
 .welcome__title {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
@@ -217,7 +223,22 @@ table {
 	margin-bottom: 25px;
 }
 
+@media (max-width: 1024px) {
+	.welcome__title {
+		letter-spacing: 0;
+		line-height: 1.2;
+		/* font-size: 40px; */
+	}
+}
 
+
+@media (max-width: 751px) {
+	.welcome__title {
+		letter-spacing: 0;
+		line-height: 1.2;
+		font-size: 40px;
+	}
+}
 @media (max-width: 320px) {
 	.welcome__title {
 		letter-spacing: 0;
@@ -238,11 +259,20 @@ table {
 	letter-spacing: 2.7px;
 	margin-bottom: 150px;
 }
-
+@media (max-width: 1024px) {
+	.welcome__subtitle {
+		line-height: 1.2;
+		margin-bottom: 100px;
+		letter-spacing: 0;
+		/* font-size: 40px; */
+	}
+}
 @media (max-width: 751px) {
 	.welcome__subtitle {
 		line-height: 1.2;
 		margin-bottom: 100px;
+		letter-spacing: 0;
+		font-size: 40px;
 	}
 }
 
@@ -272,6 +302,7 @@ table {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
+	white-space: nowrap;
 
 }
 
@@ -284,6 +315,8 @@ table {
 .welcome__button {
 	display: flex;
 	justify-content: center;
+	/* -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s; */
 }
 
 
@@ -316,23 +349,26 @@ table {
 	}
 }
 
+@media (max-width: 751px) {
+	.welcome__glass {
+		top: 10px;
+		left: 9px;
+	}
+}
+
 .welcome__color {
 	background-color: #b2f2ee;
 	padding: 10px;
 
 }
 
-@media (max-width: 751px) {
+@media (max-width: 1024px) {
 	.welcome__color {
 		padding: 0px;
 	}
 }
 
-@media (max-width: 320px) {
-	.welcome__color {
-		padding: 0;
-	}
-}
+
 
 
 .wrapper--about {
@@ -422,7 +458,7 @@ table {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 751px) {
 
 	
 	.about_us__box {
@@ -441,12 +477,11 @@ table {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 751px) {
 		
 	.about_us__right {
 		margin-right: 0;
-		margin-bottom: 25px;
-	}
+		}
 }
 
 .about_us__image {
@@ -456,12 +491,19 @@ table {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 751px) {
 
 		.about_us__image {
 		width: 100%;
+		margin-bottom: 40px;
+	}
+
+		.about_us__left {
+		justify-content: center;
 	}
 }
+
+
 
 .about_us__caption {
 	color: #3e3e3e;
@@ -570,10 +612,17 @@ table {
 	grid-template-columns: repeat(3, 1fr);
 
 }
-@media (max-width: 751px) {
+
+@media (max-width: 1024px) {
 
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 751px) {
+
+	.gallery {
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -659,10 +708,17 @@ table {
 
 }
 
-@media (max-width: 751px) {
+@media (max-width: 1024px) {
 		
 	.team__gallery {
 		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 751px) {
+		
+	.team__gallery {
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -698,7 +754,17 @@ table {
 	transition-duration: 0.4s;
 
 }
+@media (max-width: 1024px) {
+	.card__inner {
+		padding: 20px 20px;
+	}
+}
 
+@media (max-width: 751px) {
+	.card__inner {
+		padding: 20px 20px;
+	}
+}
 
 .card:hover .card__inner {
 	opacity: 1;
@@ -732,6 +798,12 @@ table {
 	margin-bottom: 23px;
 }
 
+@media (max-width: 751px) {
+	.card__name {
+		margin-bottom: 15px;
+	}
+}
+
 .card__prof {
 	color: #75807f;
 	font-family: "Merriweather - Regular";
@@ -753,11 +825,19 @@ table {
 	margin-bottom: 40px;
 }
 
+@media (max-width: 751px) {
+	.card__text {
+		margin-bottom: 10px;
+	}
+}
+
 .card__logo {
 	height: 13px;
 	width: 13px;
 	margin-right: 13px;
 	color: #2e2e2e;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 
 }
 
@@ -774,12 +854,15 @@ table {
 
 .block {
 	background: url(picture/christmas_snow_trees-wide.png);
+	
+	background-position: 0 0;
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 	padding: 150px 0;
 }
 @media (max-width: 1024px) {
 	.block {
+		background: url(picture/christmas_snow_trees-wide.png)  repeat-y;
 		padding: 75px 0;
 	}
 }
@@ -796,12 +879,11 @@ table {
 	}
 }
 
-
 .block__group {
 	display: flex;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1024px) {
 	
 	.block__group {
 		flex-direction: column;
@@ -846,7 +928,7 @@ table {
 	margin-right: 28px;
 
 }
-@media (max-width: 930px) {
+@media (max-width: 1024px) {
 	.formbox {
 		width: 100%;
 		margin-right: 0;
@@ -960,11 +1042,13 @@ table {
 	transition-duration: 0.4s;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1024px) {
 	.formbox__button {
-		width: 100% 
+		width: 100% ;
+		margin: 0px auto;
 	}
 }
+
 @media (max-width: 751px) {
 	.formbox__button {
 		width: 100% 
@@ -1031,7 +1115,7 @@ table {
 	height: 230px;
 	background-color: #333;
 }
-@media (max-width: 930px) {
+@media (max-width: 1024px) {
 	
 	.infobox__map {
 		width: 100%;
@@ -1063,12 +1147,6 @@ table {
 }
 
 
-
-/* @media (max-width: 751px) {
-	.infobox__map {
-		width: 0px;
-	}
-} */
 
 .footer {
 	background-color: #262b2e;
