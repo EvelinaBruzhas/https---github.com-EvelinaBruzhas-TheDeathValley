@@ -214,7 +214,7 @@ table {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 	color: #505050;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 45px;
+	font-size: 45pt;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -227,7 +227,7 @@ table {
 	.welcome__title {
 		letter-spacing: 0;
 		line-height: 1.2;
-		/* font-size: 40px; */
+		
 	}
 }
 
@@ -236,22 +236,16 @@ table {
 	.welcome__title {
 		letter-spacing: 0;
 		line-height: 1.2;
-		font-size: 40px;
+		font-size: 40pt;
 	}
 }
-/* @media (max-width: 320px) {
-	.welcome__title {
-		letter-spacing: 0;
-		line-height: 1.2;
-		font-size: 40px;
-	}
-} */
+
 
 .welcome__subtitle {
 	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
 	color: #505050;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 45px;
+	font-size: 45pt;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -264,7 +258,7 @@ table {
 		line-height: 1.2;
 		margin-bottom: 100px;
 		letter-spacing: 0;
-		/* font-size: 40px; */
+		
 	}
 }
 @media (max-width: 751px) {
@@ -272,18 +266,11 @@ table {
 		line-height: 1.2;
 		margin-bottom: 100px;
 		letter-spacing: 0;
-		font-size: 40px;
+		font-size: 40pt;
 	}
 }
 
-/* @media (max-width: 320px) {
-	.welcome__subtitle {
-		margin-bottom: 40px;
-		letter-spacing: 0;
-		line-height: 1.2;
-		font-size: 40px;
-	}
-} */
+
 
 .welcome__btn {
 	margin: 0 auto;
@@ -296,7 +283,7 @@ table {
 	opacity: 0.75;
 	color: #000000;
 	font-family: Montserrat;
-	font-size: 18px;
+	font-size: 18pt;
 	font-weight: bold;
 	font-style: normal;
 	text-align: center;
@@ -408,26 +395,19 @@ table {
 .about_us__title {
 	color: #1c1d1d;
 	font-family: Montserrat;
-	font-size: 38px;
+	font-size: 38pt;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 17px;
 }
-/* @media (max-width: 320px) {
 
-		
-	.about_us__title {
-		font-size: 30px;
-		margin-bottom: 5px;
-	}
-} */
 
 .about_us__subtitle {
 	color: #6c6e6e;
 	font-family: Merriweather;
-	font-size: 18px;
+	font-size: 18pt;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
@@ -510,7 +490,7 @@ table {
 .about_us__caption {
 	color: #3e3e3e;
 	font-family: Merriweather;
-	font-size: 20px;
+	font-size: 20pt;
 	font-weight: 700;
 	font-style: normal;
 	letter-spacing: normal;
@@ -529,7 +509,7 @@ table {
 .about_us__text {
 	color: #878787;
 	font-family: Raleway;
-	font-size: 16px;
+	font-size: 16pt;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
@@ -569,7 +549,7 @@ table {
 .works__title {
 	color: #1c1d1d;
 	font-family: Montserrat;
-	font-size: 38px;
+	font-size: 38pt;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -580,7 +560,7 @@ table {
 .works__subtitle {
 	color: #6c6e6e;
 	font-family: Merriweather;
-	font-size: 18px;
+	font-size: 18pt;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
@@ -645,7 +625,7 @@ table {
 	position: absolute;
 	top: 0;
 	right: 10px;
-	font-size: 40px;
+	font-size: 40pt;
 	font-weight: bolder;
 	color: #fff;
 	cursor: pointer;
@@ -684,7 +664,7 @@ table {
 .team__title {
 	color: #1c1d1d;
 	font-family: Montserrat;
-	font-size: 38px;
+	font-size: 38pt;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -693,18 +673,12 @@ table {
 
 }
 
-/* @media (max-width: 320px) {
-	
-	.team__title {
-		font-size: 30px;
-		margin-bottom: 5px;
-	}
-} */
+
 
 .team__subtitle {
 	color: #6c6e6e;
 	font-family: Merriweather;
-	font-size: 18px;
+	font-size: 18pt;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
@@ -816,7 +790,7 @@ table {
 .card__name {
 	color: #2b3131;
 	font-family: "Merriweather - Bold";
-	font-size: 20px;
+	font-size: 20pt;
 	font-weight: 700;
 	font-style: normal;
 	letter-spacing: 0.6px;
@@ -843,7 +817,7 @@ table {
 .card__text {
 	color: #2e2e2e;
 	font-family: Raleway;
-	font-size: 16px;
+	font-size: 16pt;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
@@ -943,7 +917,7 @@ table {
 .formbox {
 	color: #ffffff;
 	font-family: Raleway;
-	font-size: 15px;
+	font-size: 15pt;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
@@ -1054,7 +1028,7 @@ table {
 	font-family: Montserrat;
 	letter-spacing: inherit;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 18pt;
 	background: #6eeee4;
 	color: #000000;
 	border: none;
@@ -1099,7 +1073,7 @@ table {
 
 	color: white;
 	font-family: Raleway;
-	font-size: 15px;
+	font-size: 15pt;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
@@ -1194,7 +1168,7 @@ table {
 .footer__text {
 	color: #a6a8a9;
 	font-family: Raleway;
-	font-size: 20px;
+	font-size: 20pt;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
@@ -1212,7 +1186,7 @@ table {
 
 
 .fotter__icons {
-	font-size: 24px;
+	font-size: 24pt;
 	color: #bec0c1;
 	margin: 0;
 	width: 45px;
