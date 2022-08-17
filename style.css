@@ -641,12 +641,13 @@ table {
 	}
 } */
 
+
 .gallery__line {
 	width: 100%;
 	display: block;
 }
 
-.gallery__popup {
+/* .popup__img {
 	position: fixed;
 	top: 0; 
 	left: 0;
@@ -655,28 +656,21 @@ table {
 	width: 100%;
 	z-index: 100;
 	display: none;
-}
-
+} */
 
 .popup__x {
 	position: absolute;
 	top: 0;
 	right: 10px;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: bolder;
 	color: #fff;
 	cursor: pointer;
 	z-index: 100;
 }
 
-.popup__img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 5px;
-	width: 750px;
-	object-fit: cover;
+#element_to_pop_up {
+	display: none;
 	
 
 }

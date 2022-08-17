@@ -58,8 +58,7 @@
                         <p class="about_us__text">Preceding aircraft in approach correct sight.
                             conducted under instrument flight rules.</p>
 
-                        </p>
-                        <h2 class="about_us__caption about_us__caption--">why we are the great?</h2>
+                            <h2 class="about_us__caption about_us__caption--">why we are the great?</h2>
 
                         <p class="about_us__text">A visual approach is an approach to a runway at an airport
                             conducted under instrument flight rules.
@@ -75,47 +74,48 @@
                 <h1 class="works__title">featured works</h1>
                 <p class="works__subtitle">Lorem ipsum dolor sit amet event landing template</p>
                 <ul class="gallery">
-                    <li class="gallery__li"><img class="gallery__line" src="picture/banner3.png" alt=""></li>
-                    <li class="gallery__li"><img class="gallery__line" src="picture/5.png" alt=""></li>
-                    <li class="gallery__li"><img class="gallery__line" src="picture/6.png" alt=""></li>
-                    <li class="gallery__li"><img class="gallery__line" src="picture/work4.png" alt=""></li>
-                    <li class="gallery__li"><img class="gallery__line" src="picture/9.png" alt=""></li>
-                    <li class="gallery__li"><img class="gallery__line" src="picture/home_dietitian_sectionbg_1.png"
-                            alt=""></li>
+                    <li class="gallery__li" id="my-button"><img class="gallery__line" src="picture/banner3.png" alt="">
+                        <div class="popup" id="element_to_pop_up">
+                            <span class="popup__x">&times;</span>
+                            <img class="popup__img" src=" picture/banner3.png"
+                                    alt=""></div>
+                    </li>
+                    <li class="gallery__li" id="my-button2"><img class="gallery__line" src="picture/5.png" alt="">
+                        <div class="popup" id="element_to_pop_up2">
+                            <span class="popup__x">&times;</span>
+                            <img class="popup__img"  src="picture/5.png" alt=""></div>
+                    </li>
+                    <li class="gallery__li" id="my-button3"><img class="gallery__line" src="picture/6.png" alt="">
+                        <div class="popup" id="element_to_pop_up3">
+                            <span class="popup__x">&times;</span>
+                            <img class="popup__img" src="picture/6.png" alt=""></div>
+                    </li>
+                    <li class="gallery__li" id="my-button4"><img class="gallery__line" src="picture/work4.png" alt="">
+                        <div class="popup" id="element_to_pop_up4">
+                            <span class="popup__x">&times;</span>
+                            <img class="popup__img" src="picture/work4.png" alt=""></div>
+                    </li>
+                    <li class="gallery__li" id="my-button5"><img class="gallery__line" src="picture/9.png" alt="">
+                        <div class="popup" id="element_to_pop_up5">
+                            <span class="popup__x">&times;</span>
+                            <img class="popup__img" src="picture/9.png" alt=""></div>
+                    </li>
+                    <li class="gallery__li" id="my-button6"><img class="gallery__line" src="picture/home_dietitian_sectionbg_1.png"
+                            alt="">
+                            <div class="popup" id="element_to_pop_up6">
+                                <span class="popup__x">&times;</span>
+                                <img class="popup__img" src="picture/home_dietitian_sectionbg_1.png" alt="">
+                                </div>
+                                </li>
                 </ul>
 
-                <ul class="gallery__popup">
-                    <span class="popup__x">&times;</span>
-                    <li class="popup__li"><img class="popup__img" src=" picture/banner3.png" alt=""></li>
-                    <span class="popup__x">&times;</span>
-                    <li class="popup__li"><img class="popup__img" src="picture/5.png" alt=""></li>
-                    <span class="popup__x">&times;</span>
-                    <li class="popup__li"><img class="popup__img" src="picture/6.png" alt=""></li>
-                    <span class="popup__x">&times;</span>
-                    <li class="popup__li"><img class="popup__img" src="picture/work4.png" alt=""></li>
-                    <span class="popup__x">&times;</span>
-                    <li class="popup__li"><img class="popup__img" src="picture/9.png" alt=""></li>
-                    <span class="popup__x">&times;</span>
-                    <li class="popup__li"><img class="popup__img" src="picture/home_dietitian_sectionbg_1.png" alt="">
-                    </li>
-                </ul>
+                
 
             </div>
+            <script src="jquery-3.2.1.min.js"></script>
+            <script src="bPopup-0.11.0.js"></script>
 
-            <script>
-                document.querySelectorAll(".gallery img").forEach(image => {
-                    image.onclick = () => {
-                        document.querySelector(".gallery__popup").style.display = "block";
-                            document.querySelector(".gallery__popup img").src = image.getAttribute("src");
-                    }
-                });
-
-                document.querySelector(".popup__x").onclick = () => {
-                    document.querySelector(".gallery__popup").style.display = "none";
-                }
-            </script>
-           
-
+       
         </section>
 
         <section class="team">
@@ -285,7 +285,7 @@
         <footer class="footer">
             <div class="wrapper">
                 <p class="footer__text">Follow us</p>
-                <ul class="footer__socials" align="center">
+                <ul class="footer__socials" >
                     <script src="https://kit.fontawesome.com/ce70bd7f69.js" crossorigin="anonymous"></script>
                     <li class="fotter__icons--bc"><a href="#" class="fotter__icons"><i
                                 class="fa-brands fa-pinterest-p"></i></a></li>

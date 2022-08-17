@@ -19,3 +19,110 @@ function init() {
 
 ymaps.ready(init);
 
+
+                ; (function ($) {
+
+                    $(function () {
+
+                        $('#my-button').bind('click', function (e) {
+
+
+                            e.preventDefault();
+
+
+                            $('#element_to_pop_up').bPopup();
+
+                        });
+
+                    });
+
+                })(jQuery);
+      
+
+                ; (function ($) {
+
+                  $(function () {
+          
+                      $('#my-button2').bind('click', function (e) {
+          
+          
+                          e.preventDefault();
+          
+          
+                          $('#element_to_pop_up2').bPopup();
+          
+                      });
+          
+                  });
+          
+              })(jQuery);
+
+              ; (function ($) {
+
+                $(function () {
+        
+                    $('#my-button3').bind('click', function (e) {
+        
+        
+                        e.preventDefault();
+        
+        
+                        $('#element_to_pop_up3').bPopup();
+        
+                    });
+        
+                });
+        
+            })(jQuery);
+
+            ; (function ($) {
+
+              $(function () {
+      
+                  $('#my-button4').bind('click', function (e) {
+      
+      
+                      e.preventDefault();
+      
+      
+                      $('#element_to_pop_up4').bPopup();
+      
+                  });
+      
+              });
+      
+          })(jQuery); 
+          ; (function ($) {
+
+            $(function () {
+    
+                $('#my-button5').bind('click', function (e) {
+    
+    
+                    e.preventDefault();
+    
+    
+                    $('#element_to_pop_up5').bPopup();
+    
+                });
+    
+            });
+    
+        })(jQuery);
+        ; (function ($) {
+
+          $(function () {
+  
+              $('#my-button6').bind('click', function (e) {
+  
+  
+                  e.preventDefault();
+  
+  
+                  $('#element_to_pop_up6').bPopup();
+  
+              });
+  
+          });
+  
+      })(jQuery);
