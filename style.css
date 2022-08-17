@@ -541,11 +541,7 @@ table {
 	}
 }
 
-/* @media (max-width: 320px) {
-	.works {
-		padding: 60px 0;
-	}
-} */
+
 .works__title {
 	color: #1c1d1d;
 	font-family: Montserrat;
@@ -602,7 +598,9 @@ table {
 	}
 }
 
-
+.popup {
+	display: none;
+}
 
 
 .gallery__line {
