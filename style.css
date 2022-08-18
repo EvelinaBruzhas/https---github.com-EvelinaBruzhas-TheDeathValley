@@ -544,7 +544,7 @@ table {
 
 .gallery {
 	display: grid;
-	grid-gap: 23px 15px;
+	grid-gap: 15px;
 	grid-template-columns: repeat(3, 1fr);
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
@@ -652,7 +652,7 @@ table {
 
 .team__gallery {
 	display: grid;
-	grid-gap: 21px 17px;
+	grid-gap: 15px;
 	grid-template-columns: repeat(3, 1fr);
 	
 
