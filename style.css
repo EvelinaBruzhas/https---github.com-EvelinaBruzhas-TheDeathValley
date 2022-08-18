@@ -296,6 +296,12 @@ table {
 	}
 }
 
+@media (max-width: 751px) {
+	.welcome__btn {
+		padding: 19px 80px;
+	}
+}
+
 .welcome__button {
 	display: flex;
 	justify-content: center;
@@ -866,7 +872,7 @@ table {
 	text-align: left;
 	overflow: hidden;
 	width: 51%;
-	padding: 18px 41px 0 40px;
+	padding: 18px 41px 18px 40px;
 	margin-right: 87px;
 
 }
