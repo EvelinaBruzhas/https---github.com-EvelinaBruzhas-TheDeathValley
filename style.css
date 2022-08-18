@@ -243,14 +243,14 @@ table {
 	text-transform: uppercase;
 	letter-spacing: 2.7px;
 	margin-bottom: 146px;
-	white-space: nowrap;
+	
 }
 @media (max-width: 1024px) {
 	.welcome__subtitle {
 		line-height: 1.2;
 		margin-bottom: 100px;
 		letter-spacing: 0;
-		word-wrap: break-word;
+		
 		
 	}
 }
@@ -318,12 +318,13 @@ table {
 
 }
 
+
 .welcome__glass {
-	width: 121px;
-	height: 156px;
-	position: relative;
-	top: -43px;
-	right: 112px;
+    width: 121px;
+    height: 156px;
+    position: relative;
+    top: 8px;
+    right: 60px;
 }
 
 
@@ -543,7 +544,7 @@ table {
 
 .gallery {
 	display: grid;
-	grid-gap: 15px 41px;
+	grid-gap: 23px 15px;
 	grid-template-columns: repeat(3, 1fr);
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
@@ -569,7 +570,10 @@ table {
 
 .popup {
 	display: none;
+	transition-duration: 0.4s;
 }
+
+
 
 
 .gallery__line {
@@ -648,7 +652,7 @@ table {
 
 .team__gallery {
 	display: grid;
-	grid-gap: 13px 40px;
+	grid-gap: 21px 17px;
 	grid-template-columns: repeat(3, 1fr);
 	
 
@@ -1084,7 +1088,7 @@ table {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 160px;
+	padding-bottom: 70px;
 
 }
 
